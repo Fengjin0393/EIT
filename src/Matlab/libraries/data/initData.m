@@ -1,3 +1,5 @@
+% 首先创建了 data_info 结构体，并且给它的 names、fn 和 sizes 字段赋值。
+% 然后，使用 for 循环遍历 data_info.names 数组，获取每个数据的文件名、数据处理函数和矩阵大小，并将这些信息打印输出。
 function data = initData(data_info)
 % data : (struct)
 %    - field_name : (struct) 
